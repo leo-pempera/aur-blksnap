@@ -1,9 +1,8 @@
-# Maintainer: theokonos
-# Contirbutors: dekart811
+# Maintainer: leopempera
 
 _pkgbase=blksnap
 pkgname=blksnap
-pkgver=6.0.3.1221
+pkgver=6.1.0.1498
 pkgrel=1
 pkgdesc="Veeam Agent for Linux kernel modules (DKMS)"
 arch=('i686' 'x86_64')
@@ -14,7 +13,7 @@ conflicts=("${_pkgbase}")
 install=${pkgname}.install
 source=("${url}/rpm/el/9/x86_64/blksnap-${pkgver}-1.noarch.rpm"
         'dkms.conf')
-sha256sums=('0394ff5dc2639f4680d6fab30c02d14906f464a56380596d1363e2538703204b'
+sha256sums=('b82752fc705e2df840422f481870528337adf264b294e1f154705700587af481'
             '7d2a83f28b7c41797fadf06f29ab124ae63d662f2dba4e81e1eb4d1ef15bee7c')
 
 build() {
